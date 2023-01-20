@@ -53,6 +53,6 @@ async def load():
 async def main():
     async with client:    
         await load()
-        await client.start("Nzg5MjUwNDA2Mzk1ODA1Njk3.GKrJsc.QQgIW3GlgKPNyiOnl-pPevZ6UyAA7fB8wygYtg")  
+        await client.start("Ur bot token here")  
                          
 asyncio.run(main())            
